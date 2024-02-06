@@ -93,12 +93,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_B844B289F5D940E09F6D4CD6A23FF83C"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_A2F2F7B87C27448C8F58BE261D671750"
         "MsmSig" = "8:_UNDEFINED"
@@ -479,26 +473,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B844B289F5D940E09F6D4CD6A23FF83C"
-            {
-            "SourcePath" = "8:..\\bin\\Release\\intro.xps"
-            "TargetName" = "8:intro.xps"
-            "Tag" = "8:"
-            "Folder" = "8:_D04FDFA26C8C4A5E8A6995058FE012BC"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
         }
         "FileType"
         {
@@ -578,7 +552,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:saXps2Pdf"
         "ProductCode" = "8:{C59F335A-6A75-4545-956C-687F83CA0BE2}"
-        "PackageCode" = "8:{B675BC9D-9223-4DFB-95CB-884A15A34B62}"
+        "PackageCode" = "8:{37926CB2-950D-4875-93E7-4F3A8FCE47DA}"
         "UpgradeCode" = "8:{54422F32-1A5F-4904-A00F-788A2A907EB4}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
