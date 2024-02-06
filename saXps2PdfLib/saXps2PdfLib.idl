@@ -1,0 +1,44 @@
+/* Author: 2024 Steffen Anders */
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(38175a1b-0099-428b-8cc0-d843c76d4b00),
+]
+coclass saXps2PdfConvert;
+
+[
+	uuid(38175a1b-0099-428b-8cc0-d843c76d4c00),
+	version(1.0),
+	helpstring("saXps2PdfLib")
+]
+library saXps2PdfLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	[
+		object,
+		local,
+		uuid(38175a1b-0099-428b-8cc0-d843c76d4a00),
+		dual,
+		helpstring("IsaXml2PdfConvert - Interface"),
+		pointer_default(unique)
+	]
+	interface IsaXps2PdfConvert : IDispatch
+	{
+		[id(101),propget] HRESULT Version([out,retval] BSTR * bsResult);
+		[id(102),propget] HRESULT ErrorMessage([out,retval] BSTR * bsMessage);
+		[id(201)] HRESULT Convert([in] BSTR bsSourceFileName, [in] BSTR bsOutputFileName, VARIANT_BOOL bPdfA, [out,retval] VARIANT_BOOL * bSuccess);
+	};
+
+	[
+		uuid(38175a1b-0099-428b-8cc0-d843c76d4b00),
+		helpstring("saXml2PdfConvert"),
+	]
+	coclass saXps2PdfConvert
+	{
+		[default] interface IsaXps2PdfConvert;
+		interface IDispatch;
+	};
+}

@@ -1,0 +1,7 @@
+LIBRARY		saXps2PdfLib64.dll
+EXPORTS
+
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE
+	DllCanUnloadNow		PRIVATE
+	DllGetClassObject	PRIVATE
