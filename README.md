@@ -75,6 +75,9 @@ Use Microsoft Visual Studio 2010 or later.
 2b:|Release/x64|saXps2Pdf.exe|
 2c:|Release/x64|saXps2PdfSetup.msi|
 
+Change the path in _comreg.bat and _comunreg.bat to your release folder. 
+Execute _comreg.bat with administrator privileges.
+
 Copy gxpsdll64.dll und qxpsdll32.dll from your GhostXps download into the 
 folder bin/Release/GhostXps-10.02.1, then you can run saXps2Pdf.exe. 
 Alternatively, you can take these files from the release package.
