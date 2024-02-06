@@ -1,4 +1,10 @@
 # saXps2Pdf
+### (DE) Impressum
+Die Anbieterkennzeichnung nach TMG (Impressum) finden Sie unter https://www.it-crafts.de/impressum.
+Dieses Angebot ist nicht für die Nutzung außerhalb Deutschlands bestimmt.
+### (EN) Imprint
+You can find the German version of the imprint above here.
+This offer is not intended for use outside of Germany.
 
 ## About
 
@@ -60,11 +66,13 @@ It uses the COM-interface implemented by saXps2PdfLib64.dll.
 Windows installer
 
 ## Compiling the project
-step used configuration modules to build
----- ------------------ -------------------
-1:   Release/Win32      saXps2PdfLib32.dll
-2a:  Release/x64        saXps2PdfLib64.dll
-2b:  Release/x64        saXps2Pdf.exe
-2c:  Release/x64        saXps2PdfSetup.msi
+Use Microsoft Visual Studio 2010 or later.
+
+|step|used configuration|modules to build|
+|----|------------------|-------------------|
+1:|Release/Win32|saXps2PdfLib32.dll|
+2a:|Release/x64|saXps2PdfLib64.dll|
+2b:|Release/x64|saXps2Pdf.exe|
+2c:|Release/x64|saXps2PdfSetup.msi|
 
 *** s.a. 2024-02-06
