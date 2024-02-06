@@ -1,26 +1,30 @@
 # saXps2Pdf
 
-## (DE) Konverter von xps-Dateiformat nach pdf
+## About
+
+### (DE) Konverter von xps-Dateiformat nach pdf
 SaXps2Pdf-Converter ist eine einfache interaktive Benutzeroberfläche 
 für die Microsoft Windows-Version der GhostXPS-Dokumentkonvertierungs-Engine.
 Außerdem bietet es eine COM-Schnittstelle zur Konvertierung.
-
-## (EN) Convert xps-files into pdf
+### (EN) Convert xps-files into pdf
 SaXps2Pdf-Converter is a simple interactive userinterface for the 
 Microsoft Windows version of GhostXPS document conversion engine. 
 Also it provides a COM-interface for converting. 
 
-## (DE) Abhängigkeiten
+## Dependencies
+
+### (DE) Abhängigkeiten
 Der Konverter benutzt GhostXps als PDF-Engine.
 Die vollständige Version von GhostXps können Sie hier herunterladen:
 https://www.ghostscript.com/releases/gxpsdnld.html
-
-## (EN) Dependencies
+### (EN) Dependencies
 The converter uses GhostXps as the PDF engine.
 You can download the full version of GhostXps here:
 https://www.ghostscript.com/releases/gxpsdnld.html
 
-## (DE) Lizensierung
+## Licensing
+
+### (DE) Lizensierung
 Die hier verwendete Version von GhostXps ist unter der 
 GNU Affero General Public License (AGPL) lizenziert.
 Deshalb habe ich dieses Tool ebenfalls unter der GPL/AGPL 
@@ -32,7 +36,7 @@ eigenen, auch kommerziellen, Projekten zu verwenden.
 In diesem Fall sind die verpflichtet, selbst für die korrekte 
 Lizensierung der verwendeten GhostXps-Module zu sorgen.
 
-## (EN) Licensing
+### (EN) Licensing
 The version of GhostXps used here is licensed under the 
 GNU Affero General Public License (AGPL).
 That's why I also have this tool under the GPL/AGPL licensed.
