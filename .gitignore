@@ -1,32 +1,25 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
+# visual studio stuff
+*.scc
+*.sdf
+*.cache
+*.pdb
 *.pch
+*.ipch
+*.obj
+*.exp
+*.vshost.exe
+*.vshost.manifest
+ipch/
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# temp output
+bin/Release/testDocuments/
+bin/Release/ZUGFeRD/
+bin/Release/*.lib
+dotNetLib/
+saXps2Pdf/bin/
+saXps2Pdf/obj/
+saXps2PdfLib/Debug/
+saXps2PdfLib/Release/
+saXps2PdfSetup/Debug/
+saXps2PdfSetup/Release/
 
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
