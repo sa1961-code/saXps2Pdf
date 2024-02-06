@@ -23,3 +23,5 @@ saXps2PdfLib/Release/
 saXps2PdfSetup/Debug/
 saXps2PdfSetup/Release/
 
+# prevent installer out of releases
+*.msi
