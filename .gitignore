@@ -12,6 +12,8 @@
 ipch/
 
 # temp output
+bin/Release/GhostXps-10.02.1/*.dll
+bin/Release/GhostXps-10.02.1/*.exe
 bin/Release/testDocuments/
 bin/Release/ZUGFeRD/
 bin/Release/*.lib
