@@ -552,7 +552,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:saXps2Pdf"
         "ProductCode" = "8:{C59F335A-6A75-4545-956C-687F83CA0BE2}"
-        "PackageCode" = "8:{37926CB2-950D-4875-93E7-4F3A8FCE47DA}"
+        "PackageCode" = "8:{923474FC-2E00-4884-A477-F46C583381C1}"
         "UpgradeCode" = "8:{54422F32-1A5F-4904-A00F-788A2A907EB4}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
